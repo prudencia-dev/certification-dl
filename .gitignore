@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+# Les jeux de données réels et les modèles peuvent être volumineux ou sensibles.
+data/*.csv
+!data/sample_ai_act.csv
+!data/dl_juribert_training_cases_v2.csv
+outputs/*
+!outputs/.gitkeep
+!outputs/README.md
+models/*
+!models/.gitkeep
